@@ -47,7 +47,7 @@ En esta sección encontrarás ejemplos para verificar el correcto funcionamiento
 
 
 > ⚙️ Para compilar los ejemplos asegúrate de tener configurado tu entorno siguiendo la guía:
-[`Configuración Arduino para RP2040`](docs/Arduino_RP2040_Configuration)
+[`Configuración Arduino para RP2040`](docs/Arduino_RP2040_Configuration.md)
 
 ## 🚀 Cómo usar
 1.- Conecta tu RP2040 Zero por USB al PC.
