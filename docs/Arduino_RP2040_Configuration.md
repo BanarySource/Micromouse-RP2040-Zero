@@ -14,7 +14,7 @@ En el campo "Gestor de URLs Adicionales de Tarjetas", pega la siguiente URL:
 
 https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 
-⚠️ Si ya tienes otra URL en ese campo, sepárala con una coma.
+> ⚠️ Si ya tienes otra URL en ese campo, sepárala con una coma.
 
 ## 3. Instala el soporte para RP2040
 
