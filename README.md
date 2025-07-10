@@ -8,7 +8,7 @@ Facilitar a los usuarios con el mismo prototipo la validación de hardware antes
 
 ---
 
-## 🧩 Componentes probados
+## 🧩 Perifericos probados
 
 | Componente         | Descripción                                      |
 |--------------------|--------------------------------------------------|
@@ -31,6 +31,23 @@ Arduino IDE (o equivalente compatible)
 - SoftwareSerial (si se usa Bluetooth con UART por software)
 Cable USB-C
 Módulo Bluetooth HC-06 emparejado a 9600 baudios
+
+## 🧪 Pruebas por componente
+En esta sección encontrarás ejemplos para verificar el correcto funcionamiento de cada uno de los periféricos del robot Micromouse RP2040 Zero. Puedes cargar estos códigos desde Arduino IDE para probar por separado cada módulo.
+
+| Componente                 | Descripción                                      | Enlace al código                                                 |
+| -------------------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
+| 🟢 **LED RGB (Neopixel)**  | Prueba básica para encender el LED RGB integrado | [`examples/LedRGB_Test`](examples/01RGB?LED)                     |
+| 🔘 **Botón de inicio**     | Lectura del botón para iniciar el programa       | [`examples/Button_Test`](examples/02PushButton?RGB)              |
+| ⚙️ **Motores y puente H**  | Control de velocidad y dirección con PWM         | [`examples/Motor_Test`](examples/03Motors)                       |
+| 📈 **Sensores analógicos** | Lectura ordenada de sensores conectados a ADC    | [`examples/AnalogSensors_Test`](examples/04Sensors)              |
+| 🔄 **Encoders de motores** | Conteo de pulsos y detección de dirección        | [`examples/Encoder_Test`](examples/05Encoders)                   |
+| 🧭 **MPU6050** (I2C)       | Lectura de aceleración, giroscopio y temperatura | [`examples/MPU6050_Test`](examples/06MPU)                        |
+| 📶 **Bluetooth (HC-06)**   | Control del LED RGB mediante comandos Bluetooth  | [`examples/BluetoothRGB_Control`](examples/07Bluetooth)          |
+
+
+> ⚙️ Para compilar los ejemplos asegúrate de tener configurado tu entorno siguiendo la guía:
+Configuración Arduino para RP2040
 
 ## 🚀 Cómo usar
 1.- Conecta tu RP2040 Zero por USB al PC.
