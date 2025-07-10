@@ -37,13 +37,13 @@ En esta sección encontrarás ejemplos para verificar el correcto funcionamiento
 
 | Componente                 | Descripción                                      | Enlace al código                                                 |
 | -------------------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
-| 🟢 **LED RGB (Neopixel)**  | Prueba básica para encender el LED RGB integrado | [`examples/LedRGB_Test`](examples/01RGB?LED)                     |
-| 🔘 **Botón de inicio**     | Lectura del botón para iniciar el programa       | [`examples/Button_Test`](examples/02PushButton?RGB)              |
-| ⚙️ **Motores y puente H**  | Control de velocidad y dirección con PWM         | [`examples/Motor_Test`](examples/03Motors)                       |
-| 📈 **Sensores analógicos** | Lectura ordenada de sensores conectados a ADC    | [`examples/AnalogSensors_Test`](examples/04Sensors)              |
-| 🔄 **Encoders de motores** | Conteo de pulsos y detección de dirección        | [`examples/Encoder_Test`](examples/05Encoders)                   |
-| 🧭 **MPU6050** (I2C)       | Lectura de aceleración, giroscopio y temperatura | [`examples/MPU6050_Test`](examples/06MPU)                        |
-| 📶 **Bluetooth (HC-06)**   | Control del LED RGB mediante comandos Bluetooth  | [`examples/BluetoothRGB_Control`](examples/07Bluetooth)          |
+| 🟢 **LED RGB (Neopixel)**  | Prueba básica para encender el LED RGB integrado | [`examples/01RGB_LED`](examples/01RGB_LED)                       |
+| 🔘 **Botón de inicio**     | Lectura del botón para iniciar el programa       | [`examples/02PushButton?RGB`](examples/02PushButton?RGB)         |
+| ⚙️ **Motores y puente H**  | Control de velocidad y dirección con PWM         | [`examples/03Motors`](examples/03Motors)                         |
+| 📈 **Sensores analógicos** | Lectura ordenada de sensores conectados a ADC    | [`examples/04Sensors`](examples/04Sensors)                       |
+| 🔄 **Encoders de motores** | Conteo de pulsos y detección de dirección        | [`examples/05Encoders`](examples/05Encoders)                     |
+| 🧭 **MPU6050** (I2C)       | Lectura de aceleración, giroscopio y temperatura | [`examples/06MPU`](examples/06MPU)                               |
+| 📶 **Bluetooth (HC-06)**   | Control del LED RGB mediante comandos Bluetooth  | [`examples/07Bluetooth`](examples/07Bluetooth)                   |
 
 
 > ⚙️ Para compilar los ejemplos asegúrate de tener configurado tu entorno siguiendo la guía:
