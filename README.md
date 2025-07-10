@@ -59,6 +59,12 @@ Si tienes un robot basado en este diseño y deseas mejorar las pruebas o agregar
 ## 🔖 Licencia
 Este proyecto está bajo licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
 
-## ✍️ Autor
-Eric G. Vallejo
-Docente e integrador de proyectos de robótica, automatización y sistemas embebidos.
+---
+
+## **📌 Autor:**  
+🎓 **Eric G, Vallejo**  
+💼 *Docente e integrador de proyectos en:*  
+🔹 Robótica  
+🔹 Automatización industrial  
+🔹 Sistemas embebidos y programación
+
