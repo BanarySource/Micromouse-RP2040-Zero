@@ -24,10 +24,10 @@ Selecciona: `Raspberry Pi RP2040 Boards` > `Raspberry Pi Pico`
 > ✅ Puedes seleccionar cualquier placa compatible RP2040. La RP2040 Zero es funcionalmente equivalente.
 
 ## 5. Conecta tu tarjeta RP2040 por primera vez
-1.- Presiona el botón BOOTSEL en la tarjeta
-2.- Mientras lo mantienes presionado, conecta el cable USB
-3.- La tarjeta se montará como una unidad de almacenamiento masivo (tipo pendrive)
-4.- Luego de subir el primer sketch, ya no es necesario usar el botón BOOTSEL para futuras cargas.
+- Presiona el botón BOOTSEL en la tarjeta
+- Mientras lo mantienes presionado, conecta el cable USB
+- La tarjeta se montará como una unidad de almacenamiento masivo (tipo pendrive)
+- Luego de subir el primer sketch, ya no es necesario usar el botón BOOTSEL para futuras cargas.
 
 ## 6. Selecciona el puerto correcto
 Ve a: `Herramientas` > `Puerto`
