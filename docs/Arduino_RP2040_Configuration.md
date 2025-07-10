@@ -39,5 +39,4 @@ Ya puedes cargar cualquier sketch desde el Arduino IDE. Usa la consola serial pa
 Tu entorno está configurado y listo para compilar y cargar programas en la RP2040 Zero.
 
 
-Autor: Eric G. Vallejo
-Empresa: Banary Source
+Autor: Eric G. Vallejo - Banary Source
