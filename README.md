@@ -1,4 +1,4 @@
-<p align="center"> # Micromouse RP2040 Zero</p>
+<h1 align="center">Micromouse RP2040 Zero</h1>
 
 Este repositorio contiene los códigos de prueba para verificar el correcto funcionamiento de los periféricos integrados en un robot tipo **Micromouse** basado en el microcontrolador **RP2040 Zero**.
 
