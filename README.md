@@ -1,7 +1,8 @@
 # Micromouse RP2040 Zero - Pruebas de Periféricos
 
 Este repositorio contiene los códigos de prueba para verificar el correcto funcionamiento de los periféricos integrados en un robot tipo **Micromouse** basado en el microcontrolador **RP2040 Zero**.
-<img src="docs/images/Micromouse4.jpg" alt="Micromouse RP2040 Zero" width="400"/>
+
+<img src="docs/images/Micromouse6.jpg" alt="Micromouse RP2040 Zero" width="400"/>
 
 ## 🎯 Objetivo
 
