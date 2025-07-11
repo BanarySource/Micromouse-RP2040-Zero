@@ -37,13 +37,14 @@ En esta sección encontrarás ejemplos para verificar el correcto funcionamiento
 
 | Componente                 | Descripción                                      | Enlace al código                                                 |
 | -------------------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
-| 🟢 **LED RGB (Neopixel)**  | Prueba básica para encender el LED RGB integrado | [`examples/01RGB`](examples/01RGB)                               |
-| 🔘 **Botón de inicio**     | Lectura del botón para encender el RGB integrado | [`examples/02PushButton`](examples/02PushButton)                 |
-| ⚙️ **Motores y puente H**  | Control de velocidad y dirección con PWM         | [`examples/03Motors`](examples/03Motors)                         |
-| 📈 **Sensores analógicos** | Lectura ordenada de sensores conectados a ADC    | [`examples/04Sensors`](examples/04Sensors)                       |
-| 🔄 **Encoders de motores** | Conteo de pulsos y detección de dirección        | [`examples/05Encoders`](examples/05Encoders)                     |
-| 🧭 **MPU6050** (I2C)       | Configuracion y uso del MPU6050                  | [`examples/06MPU`](examples/06MPU)                               |
-| 📶 **Bluetooth (HC-06)**   | Control del LED RGB mediante comandos Bluetooth  | [`examples/07Bluetooth`](examples/07Bluetooth)                   |
+| 🟢 **LED RGB (Neopixel)**  | Prueba básica para encender el LED RGB integrado | [`examples/01_RGB`](examples/01_RGB/01_RGB.ino)                      |
+| 🔘 **Botón de inicio**     | Lectura del botón para encender el RGB integrado | [`examples/02_PushButton`](examples/02_PushButton/02_PushButton.ino) |
+| ⚙️ **Motores y puente H**  | Control de velocidad y dirección con PWM         | [`examples/03_Motors`](examples/03_Motors/03_Motors.ino)             |
+| 📈 **Sensores analógicos** | Lectura ordenada de sensores conectados a ADC    | [`examples/04_Sensors`](examples/04_Sensors/04_Sensors.ino)          |
+| 🔄 **Encoders de motores** | Conteo de pulsos y detección de dirección        | [`examples/05_Encoders`](examples/05_Encoders/05_Encoders.ino)       |
+| 🧭 **MPU6050** (I2C)       | Configuracion y uso del MPU6050                  | [`examples/06_MPU`](examples/06_MPU/.ino)                            |
+| 📶 **Bluetooth (HC-06)**   | Control del LED RGB mediante comandos Bluetooth  | [`examples/07_Bluetooth`](examples/07_Bluetooth/07_Bluetooth.ino)    |
+| 📶 **MPU6050 (Adafruit)**  | Configuracion y uso del MPU6050 (Librería Adafruit)  | [`examples/08_MPU6050`](examples/08_MPU6050/08_MPU6050.ino)      |
 
 
 > ⚙️ Para compilar los ejemplos asegúrate de tener configurado tu entorno siguiendo la guía:
