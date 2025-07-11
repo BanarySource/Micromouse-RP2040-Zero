@@ -52,7 +52,7 @@ En esta sección encontrarás ejemplos para verificar el correcto funcionamiento
 
 ## 🚀 Cómo usar
 - Conecta tu RP2040 Zero por USB al PC.
-- - Abre uno de los archivos .ino según el periférico que desees probar.
+- Abre uno de los archivos .ino según el periférico que desees probar.
 - Carga el sketch desde el Arduino IDE.
 - Sigue las instrucciones del monitor serial o desde la app Bluetooth.
 
