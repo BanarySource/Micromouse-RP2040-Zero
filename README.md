@@ -2,7 +2,7 @@
 
 Este repositorio contiene los códigos de prueba para verificar el correcto funcionamiento de los periféricos integrados en un robot tipo **Micromouse** basado en el microcontrolador **RP2040 Zero**.
 
-![Micromouse RP2040 Zero](docs/images/Micromouse7.jpg)
+![Micromouse RP2040 Zero](docs/images/Micromouse7.png)
 
 ## 🎯 Objetivo
 
