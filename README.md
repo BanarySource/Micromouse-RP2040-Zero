@@ -51,10 +51,10 @@ En esta sección encontrarás ejemplos para verificar el correcto funcionamiento
 [`Configuración Arduino para RP2040`](docs/Arduino_RP2040_Configuration.md)
 
 ## 🚀 Cómo usar
-1.- Conecta tu RP2040 Zero por USB al PC.
-2.- Abre uno de los archivos .ino según el periférico que desees probar.
-3.- Carga el sketch desde el Arduino IDE.
-4.- Sigue las instrucciones del monitor serial o desde la app Bluetooth.
+- Conecta tu RP2040 Zero por USB al PC.
+- - Abre uno de los archivos .ino según el periférico que desees probar.
+- Carga el sketch desde el Arduino IDE.
+- Sigue las instrucciones del monitor serial o desde la app Bluetooth.
 
 ## 📲 Comandos vía Bluetooth
 En la prueba de RGB por Bluetooth, puedes enviar desde el celular los siguientes caracteres:
