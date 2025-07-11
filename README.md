@@ -87,7 +87,7 @@ Este proyecto está bajo licencia MIT. Puedes usarlo, modificarlo y distribuirlo
 ---
 
 ## **📌 Autor:**  
-🎓 **Eric G, Vallejo**  
+🎓 **Eric G. Vallejo**  
 💼 *Docente e integrador de proyectos en:*  
 🔹 Robótica  
 🔹 Automatización industrial  
