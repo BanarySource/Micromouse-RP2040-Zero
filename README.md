@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/BanarySource.png" alt="Banary Source" width="200">
+  <img src="docs/images/BanarySource.png" alt="Banary Source" width="150">
 </p>
 <h1 align="center">Micromouse RP2040 Zero</h1>
 
