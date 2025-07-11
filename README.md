@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="docs/images/BanarySource.png" alt="Banary Source" width="120">
+</p>
 <h1 align="center">Micromouse RP2040 Zero</h1>
 
 Este repositorio contiene los códigos de prueba para verificar el correcto funcionamiento de los periféricos integrados en un robot tipo **Micromouse** basado en el microcontrolador **RP2040 Zero**.
