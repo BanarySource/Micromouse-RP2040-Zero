@@ -18,8 +18,8 @@
 
 // Definición de pines para el Puente H y el botón
 const int PWMA   = 5;  // PWM motor A
-const int AIN1   = 3;  // Dirección motor A
-const int AIN2   = 4;  // Dirección motor A
+const int AIN1   = 4;  // Dirección motor A
+const int AIN2   = 3;  // Dirección motor A
 const int PWMB   = 0;  // PWM motor B
 const int BIN1   = 1;  // Dirección motor B
 const int BIN2   = 2;  // Dirección motor B
