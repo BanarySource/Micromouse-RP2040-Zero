@@ -48,7 +48,7 @@ void loop() {
   Serial.print("Encoder M1: "); Serial.print(encoderCountM1);
   Serial.print("  |  Encoder M2: "); Serial.println(encoderCountM2);
   
-  delay(500);  // Esperar medio segundo entre lecturas
+  delay(200);  // Esperar medio segundo entre lecturas
 }
 
 // Rutina de interrupción para el encoder del motor 1
