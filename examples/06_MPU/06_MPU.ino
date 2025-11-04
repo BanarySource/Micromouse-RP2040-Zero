@@ -28,7 +28,6 @@ MPU6050 mpu(Wire1);
 // Función de configuración
 void setup() {
   Serial.begin(115200);
-  while (!Serial);  // Esperar a que se abra el monitor serial
 
   // Configuración de pines I2C remapeados
   Wire1.setSDA(10);  // SDA en GP10
