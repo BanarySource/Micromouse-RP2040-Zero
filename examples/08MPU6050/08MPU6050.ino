@@ -30,7 +30,6 @@ Adafruit_MPU6050 mpu;
 // Configuración inicial del sistema
 void setup() {
   Serial.begin(115200);
-  while (!Serial);  // Espera a que se abra el monitor serial
 
   // Configura pines remapeados para I2C en Wire1
   Wire1.setSDA(10);  // SDA en GP10
