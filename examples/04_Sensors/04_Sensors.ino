@@ -23,7 +23,6 @@ const int sensor4Pin = 26;  // GPIO26 → ADC0
 // Función de configuración
 void setup() {
   Serial.begin(115200);  // Inicializar comunicación serial
-  while (!Serial);       // Esperar a que el monitor esté disponible (en algunas placas)
 }
 
 // Bucle principal
