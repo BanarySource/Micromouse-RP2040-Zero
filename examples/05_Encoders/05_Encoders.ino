@@ -29,8 +29,7 @@ volatile long encoderCountM2 = 0;
 // Función de configuración
 void setup() {
   Serial.begin(115200);
-  while (!Serial);
-
+  
   // Configurar pines como entradas con resistencia pull-up
   pinMode(M1_A, INPUT_PULLUP);
   pinMode(M1_B, INPUT_PULLUP);
