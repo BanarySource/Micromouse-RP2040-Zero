@@ -29,7 +29,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KH
 // Función de configuración
 void setup() {
   pixels.begin();         // Inicializa el LED RGB
-  pinMode(PB, INPUT);     // Configura el pin del botón como entrada
+  pinMode(PB, INPUT_PULLUP);     // Configura el pin del botón como entrada
 }
 
 // Bucle principal
