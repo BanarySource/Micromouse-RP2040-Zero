@@ -20,8 +20,8 @@ Instala el paquete desarrollado por Earle Philhower
 
 ## 4. Selecciona la tarjeta adecuada
 Ve a: `Herramientas` > `Placa`
-Selecciona: `Raspberry Pi RP2040 Boards` > `Raspberry Pi Pico`
-> ✅ Puedes seleccionar cualquier placa compatible RP2040. La RP2040 Zero es funcionalmente equivalente.
+Selecciona: `Raspberry Pi RP2040 Boards` > `Waveshare RP2040 Zero`
+> ✅ Si no la encuentras, `Raspberry Pi Pico` también funciona con todos los ejemplos.
 
 ## 5. Conecta tu tarjeta RP2040 por primera vez
 - Presiona el botón BOOTSEL en la tarjeta
@@ -34,7 +34,7 @@ Ve a: `Herramientas` > `Puerto`
 Selecciona el puerto **COM** correspondiente a la RP2040 Zero (por ejemplo, COM3, COM4, etc.)
 
 ## 7. Verifica la carga
-Ya puedes cargar cualquier sketch desde el Arduino IDE. Usa la consola serial para verificar comunicación con Serial.begin().
+Carga [`examples/00_Diagnostico`](../examples/00_Diagnostico/00_Diagnostico.ino) y abre el monitor serial a **115200**: debe aparecer el menú de pruebas.
 > 🌟 Listo
 Tu entorno está configurado y listo para compilar y cargar programas en la RP2040 Zero.
 

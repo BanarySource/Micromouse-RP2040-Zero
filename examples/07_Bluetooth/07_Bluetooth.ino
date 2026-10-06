@@ -7,8 +7,8 @@
  * Descripción:
  * Este código permite controlar el color del LED RGB integrado
  * en la placa a través de comandos recibidos por un módulo
- * Bluetooth HC-06 conectado por software serial a los pines
- * GP12 (TX) y GP13 (RX).
+ * inalámbrico serie (Bluetooth HC-06 o WiFi DT-06) conectado al
+ * UART0 por hardware (Serial1): GP12 (TX) y GP13 (RX), 9600 baud.
  * 
  * Los comandos recibidos son caracteres que indican una acción:
  * 'F' (Forward) verde, 'B' (Backward) rojo, 'R' (Right) azul,
@@ -16,29 +16,28 @@
  *
  * Hardware:
  * - Microcontrolador RP2040 Zero
- * - Módulo Bluetooth HC-06 conectado a GP12 (TX) y GP13 (RX)
+ * - Módulo HC-06 (Bluetooth) o DT-06 (WiFi) en GP12 (TX) y GP13 (RX)
  * - LED RGB Neopixel conectado a GP16
- * - Librerías utilizadas: Adafruit_NeoPixel, SoftwareSerial
+ * - Librería utilizada: Adafruit_NeoPixel
  **************************************************************/
 
 #include <Adafruit_NeoPixel.h>
-#include <SoftwareSerial.h>
 
 // Configuración del LED RGB
 #define LED_PIN    16
 #define NUM_LEDS   1
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-// Configuración Software Serial para el módulo Bluetooth
-#define BT_RX 13  // Pin RX para recibir datos del Bluetooth
-#define BT_TX 12  // Pin TX para enviar datos al Bluetooth
+// Módulo inalámbrico en el UART0 por hardware (Serial1)
+#define BT_RX 13  // GP13: RX del RP2040 (a TX del módulo)
+#define BT_TX 12  // GP12: TX del RP2040 (a RX del módulo)
 
-SoftwareSerial BTSerial(BT_RX, BT_TX);
+SerialUART &BTSerial = Serial1;  // UART0 por hardware
 
 void setup() {
   // Inicializar comunicación serial con módulo Bluetooth
-  pinMode(BT_RX, INPUT);
-  pinMode(BT_TX, OUTPUT);
+  BTSerial.setRX(BT_RX);
+  BTSerial.setTX(BT_TX);
   BTSerial.begin(9600);
 
   // Inicializar LED RGB

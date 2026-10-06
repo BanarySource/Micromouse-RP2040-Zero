@@ -34,7 +34,7 @@ void setup() {
   pinMode(BIN2, OUTPUT);
 
   // Configurar el botón como entrada con resistencia pull-up interna
-  pinMode(button, INPUT);
+  pinMode(button, INPUT_PULLUP);
 }
 
 // Bucle principal

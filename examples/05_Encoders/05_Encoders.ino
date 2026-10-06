@@ -29,7 +29,8 @@ volatile long encoderCountM2 = 0;
 // Función de configuración
 void setup() {
   Serial.begin(115200);
-  
+  while (!Serial);
+
   // Configurar pines como entradas con resistencia pull-up
   pinMode(M1_A, INPUT_PULLUP);
   pinMode(M1_B, INPUT_PULLUP);
@@ -47,7 +48,7 @@ void loop() {
   Serial.print("Encoder M1: "); Serial.print(encoderCountM1);
   Serial.print("  |  Encoder M2: "); Serial.println(encoderCountM2);
   
-  delay(200);  // Esperar medio segundo entre lecturas
+  delay(200);  // Esperar 200 ms entre lecturas
 }
 
 // Rutina de interrupción para el encoder del motor 1
