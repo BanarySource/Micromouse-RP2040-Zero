@@ -43,7 +43,7 @@ Códigos de prueba y de control para el robot tipo **Micromouse** de Banary Sour
 | Encoder M2, **rueda derecha**: A, B | GP6, GP7 | Interrupción en A |
 | Botón de inicio | GP8 | `INPUT_PULLUP`, presionado = `LOW` |
 | LED RGB Neopixel | GP16 | |
-| Sensores IR (ADC) | GP26, GP27, GP28, GP29 | Lecturas de 0 a 1023 |
+| Sensores IR (ADC): S1 lateral izq., S2 frontal izq., S3 frontal der., S4 lateral der. | GP26, GP27, GP28, GP29 | De 0 a 1023; la lectura **sube** al acercar algo |
 | MPU6050 en `Wire1`: SDA, SCL | GP10, GP11 | Dirección `0x68` |
 | Módulo inalámbrico en `Serial1`: TX, RX | GP12, GP13 | 9600 baud |
 | Conector STARTUP | GP9 | Libre |
@@ -78,6 +78,8 @@ Códigos de prueba y de control para el robot tipo **Micromouse** de Banary Sour
 | [`11_SensorsFilter`](examples/11_SensorsFilter/11_SensorsFilter.ino) | Lectura de los sensores IR limitada y convertida a distancia aproximada |
 | [`10_PID`](examples/10_PID/10_PID.ino) | Sigue una pared con PID (mano derecha o izquierda); los giros se hacen por tiempo |
 | [`14_PIDEncoders`](examples/14_PIDEncoders/14_PIDEncoders.ino) | El mismo seguidor de pared, pero mide los giros con los encoders |
+
+> ⚠️ `10_PID` y `14_PIDEncoders` se escribieron para los módulos IR anteriores, cuya lectura **bajaba** al acercarse. Con los sensores actuales (S1–S4, que **suben** al acercarse) el orden de `sensorPins` y las comparaciones no corresponden: tómalos como punto de partida y ajústalos a tu robot.
 
 En `10_PID` y `14_PIDEncoders`, **mantén el botón al encender** para usar la mano derecha (LED azul). Si no lo presionas, usa la mano izquierda (LED rojo). Después presiona el botón para arrancar.
 
